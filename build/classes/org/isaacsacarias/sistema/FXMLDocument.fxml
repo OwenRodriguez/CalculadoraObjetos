@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.isaacsacarias.sistema.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnCero" layoutX="72.0" layoutY="365.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="52.0" text="0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnPunto" layoutX="134.0" layoutY="365.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text=".">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnIgual" layoutX="244.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="108.0" prefWidth="50.0" text="=">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnSuma" layoutX="191.0" layoutY="365.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="+">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnTres" layoutX="134.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="3">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnDos" layoutX="74.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="2">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnUno" layoutX="15.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="1">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnSiete" layoutX="15.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="7">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnOcho" layoutX="74.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="8">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnNueve" layoutX="134.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="9">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnMultiplicador" layoutX="191.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="*">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnMenos" layoutX="191.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="-">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnSeis" layoutX="134.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="6">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnCinco" layoutX="74.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="5">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnCuatro" layoutX="15.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="4">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnCE" layoutX="244.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="CE">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnXCuadrado" layoutX="244.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="χ²">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnDivicion" layoutX="191.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="/">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Button fx:id="btnRaiz" layoutX="73.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="√">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <TextField fx:id="txtValores" alignment="CENTER_RIGHT" editable="false" layoutX="15.0" layoutY="46.0" prefHeight="78.0" prefWidth="278.0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#efff00" />
+               </light>
+            </Lighting>
+         </effect></TextField>
+      <MenuBar layoutX="14.0" layoutY="14.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Tipo">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Cientifica" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Acerca De">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Programador" />
+            </items>
+          </Menu>
+        </menus>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect>
+      </MenuBar>
+      <Button fx:id="btnPorcentaje" layoutX="14.0" layoutY="139.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="52.0" text="\%">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="btnUnox" layoutX="190.0" layoutY="139.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="52.0" text="1/x">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="btnMasMenos" layoutX="15.0" layoutY="365.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="52.0" text="+/-">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="btnC" layoutX="244.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="C">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="btnBorrar" layoutX="134.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="←">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="360.0" color="#fdff00" elevation="132.91" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
